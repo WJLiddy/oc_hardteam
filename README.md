@@ -5,3 +5,4 @@ oc_fireteam but hard
 - skill 3
 - lose all points on death
   
+files go in steamapps/sourcemods/obsidian/maps/cfg
