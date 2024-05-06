@@ -1,0 +1,95 @@
+oc_fireteam_2
+{
+    Add
+    {
+        "point_teleport"
+        {
+            "angles" "0 0 0"
+            "radius" "640"
+            "spawnflags" "2048"
+            "StartEnabled" "1"
+            "TeleportDestination" "SpawnGroup_*"
+            "origin" "-8 -8 9"
+        }
+        "npc_turret_floor"
+        {
+            "angles" "0 232.5 0"
+            "hammerid" "193810"
+            "model" "models/combine_turrets/floor_turret.mdl"
+            "spawnflags" "0"
+            "origin" "9808 10714 107"
+        }
+        "combine_mine"
+        {
+            "angles" "0 0 0"
+            "bounce" "1"
+            "hammerid" "134179"
+            "LockSilently" "1"
+            "spawnflags" "0"
+            "StartDisarmed" "0"
+            "origin" "9700 10609 103.918"
+        }
+        "combine_mine"
+        {
+            "angles" "0 280.5 0"
+            "bounce" "1"
+            "hammerid" "134179"
+            "LockSilently" "1"
+            "spawnflags" "0"
+            "StartDisarmed" "0"
+            "origin" "9662 10687 103.918"
+        }
+        "combine_mine"
+        {
+            "angles" "0 234.5 0"
+            "bounce" "1"
+            "hammerid" "134179"
+            "LockSilently" "1"
+            "spawnflags" "0"
+            "StartDisarmed" "0"
+            "origin" "9790 10583 103.918"
+        }
+        "npc_turret_floor"
+        {
+            "angles" "0 75 0"
+            "hammerid" "193810"
+            "model" "models/combine_turrets/floor_turret.mdl"
+            "spawnflags" "0"
+            "origin" "8123 9708.98 92"
+        }
+        "shadow_control"
+        {
+            "angles" "0 0 0"
+            "color" "128 128 128"
+            "disableallshadows" "0"
+            "distance" "75"
+            "origin" "-6461.86 -10340.2 145"
+        }
+    }
+    Modify
+    {
+        ClassName
+        {
+            "worldspawn"
+            {
+                "mapversion" "9"
+            }
+            "prop_vehicle_jeep"
+            {
+                "EnableGun" "0"
+            }
+        }
+        Origin
+        {
+            "9797 10725 102"
+            {
+                "angles" "0 216.5 0"
+                "origin" "9781 10739 107"
+            }
+        }
+    }
+SpawnItems
+{
+		"weapon_physcannon" "1"
+}
+}

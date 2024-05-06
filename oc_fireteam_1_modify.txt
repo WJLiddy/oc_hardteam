@@ -412,6 +412,10 @@ oc_fireteam_1
             {
                 "mapversion" "13"
             }
+            "prop_vehicle_jeep"
+            {
+                "EnableGun" "0"
+            }
         }
         Origin
         {
@@ -423,6 +427,6 @@ oc_fireteam_1
     }
 SpawnItems
 {
-    
+    "weapon_physcannon" "1"  
 }
 }
