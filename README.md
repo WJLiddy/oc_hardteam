@@ -5,5 +5,6 @@ oc_fireteam but hard
 - skill 3
 - lose all points on death
 - remove lots of extra weapons/ammo lying around the map
+- friendly fire on
   
 files go in steamapps/sourcemods/obsidian/maps/cfg
